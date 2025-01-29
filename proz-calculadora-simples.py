@@ -5,13 +5,13 @@ def calculadora():
         print("2: Diminuit")
         print("3: Multiplicar")
         print("4: Dividir")
-        print("0: Sair")
+        print("5: Sair")
         
         # Entrada e verificação da operação. Se a entrada for válida continua. Senão exibe uma mensagem e retorna ao menu.
         opcao = input("Digite o número da operação desejada: ")
         
         # Verifica se o usuário quer sair
-        if opcao == '0':
+        if opcao == '5':
             print("Saindo da calculadora. Tchau, até a próxima!")
             break
         
